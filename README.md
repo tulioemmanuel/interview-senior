@@ -1,3 +1,11 @@
+# INSTRUÇÕES TULIO
+RODAR: 
+mvn clean install -DskipTests
+docker-compose up -d
+
+O load-balancer está ouvindo na porta 80
+
+
 # Teste Programador Backend Sênior
 Teste destinado aos candidatos a vaga de Programador Backend <b>Sênior</b>. Se o seu nível é outro, por favor, dê uma olhada nos demais repositórios e escolha o que se adequa a sua skill. 
 - [@brainweb-interview-junior](https://github.com/brainweb-br/brainweb-interview-junior)

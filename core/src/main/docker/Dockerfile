@@ -4,9 +4,9 @@ LABEL maintainer="Brainweb"
 LABEL version="1.0"
 
 ENV DB_NAME="postgres"
-ENV DB_HOSTNAME="localhost"
+ENV DB_HOSTNAME="db"
 ENV DB_PORT="5432"
-ENV DB_USERNAME="brainweb"
+ENV DB_USERNAME="postgres"
 ENV DB_PWD="brainweb"
 
 EXPOSE 8080
